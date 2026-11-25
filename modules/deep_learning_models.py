@@ -1,4 +1,3 @@
-"""PyTorch MLP experiments for Adult Census, with leakage-free model selection.
 
 
 from __future__ import annotations

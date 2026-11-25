@@ -1,9 +1,6 @@
 """PyTorch MLP experiments for Adult Census, with leakage-free model selection.
 
-Place this file in modules/ beside preprocessor.py. All selection uses training
-data only. Each CV fold has its own inner early-stopping split and transformer.
-The final network is refit on all training rows for the median selected epoch.
-"""
+
 from __future__ import annotations
 
 from copy import deepcopy

@@ -1,9 +1,4 @@
-"""Download and load the official UCI Adult Census Income dataset.
 
-The public UCI train/test split is preserved. Missing categorical values are
-represented by ``pandas.NA`` and the test labels are normalized to match the
-training labels.
-"""
 
 from __future__ import annotations
 
